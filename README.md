@@ -87,3 +87,7 @@ python3 "$S" get sfx/ "fs:<id1>" "fs:<id2>"
 搜索与下载使用当前终端的 HTTP/HTTPS 代理设置。遇到超时，可先检查 Freesound 是否可访问，以及终端代理是否生效。批量下载可在同一个 `get` 命令中传入多个 ID，脚本会并发处理。
 
 [`references/local-setup.md`](references/local-setup.md) 和 [`scripts/clash_freesound.py`](scripts/clash_freesound.py) 针对作者的 macOS / ClashX Meta 配置。辅助脚本的 `--fix` 会修改本机 Clash 配置并切换节点，仅在环境匹配且需要调整代理时使用。
+
+## 视频制作流程
+
+[奕起聊车视频制作流程](video-workflow/README.md)包含从素材与口播录音到剪辑、混音、返修和交付的步骤，配套[返修与验收清单](video-workflow/CHECKLIST.md)与[待建设技能计划](video-workflow/SKILL-ROADMAP.md)。完整制作要求见 [AGENTS.md](AGENTS.md)。
