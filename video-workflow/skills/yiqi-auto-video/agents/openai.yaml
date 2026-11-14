@@ -1,0 +1,4 @@
+interface:
+  display_name: "奕起聊车视频制作"
+  short_description: "汽车口播视频制作、字幕动效、分轨混音与短镜头逐帧返修验收"
+  default_prompt: "请用 $yiqi-auto-video 按已确认的风格和口播制作视频，复核素材内切点、字幕、混音与实际导出。"
